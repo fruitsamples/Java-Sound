@@ -1,0 +1,479 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 39;
+	objects = {
+		00E6828EFEC88D1A11DB9C8B = {
+			buildSettings = {
+			};
+			buildStyles = (
+				130F8B95001BDF0A11CA292A,
+				130F8B96001BDF0A11CA292A,
+			);
+			hasScannedForEncodings = 1;
+			isa = PBXProject;
+			mainGroup = 00E6828FFEC88D1A11DB9C8B;
+			productRefGroup = 0120612AFEC8923411DB9C8B;
+			projectDirPath = "";
+			targets = (
+				130F8B90001BDF0A11CA292A,
+			);
+		};
+		00E6828FFEC88D1A11DB9C8B = {
+			children = (
+				F5456A70038B1DA001E8FE26,
+				F5456A83038B222101E8FE26,
+				F5456A94038B3C0C01E8FE26,
+				F5456A95038B3C0C01E8FE26,
+				F5456A93038B3C0C01E8FE26,
+				6A8008AE02C7B68F0CC91562,
+				0120612AFEC8923411DB9C8B,
+			);
+			isa = PBXGroup;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+//000
+//001
+//002
+//003
+//004
+//010
+//011
+//012
+//013
+//014
+		0120612AFEC8923411DB9C8B = {
+			children = (
+				6A9ED92C02B0286D0CC91562,
+			);
+			isa = PBXGroup;
+			name = Products;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+//010
+//011
+//012
+//013
+//014
+//130
+//131
+//132
+//133
+//134
+		130F8B90001BDF0A11CA292A = {
+			buildPhases = (
+				130F8B91001BDF0A11CA292A,
+				130F8B93001BDF0A11CA292A,
+				130F8B94001BDF0A11CA292A,
+				F5D44B9903A82BFA01AD5520,
+				F5D44B9203A82BC801AD5520,
+			);
+			buildSettings = {
+				DISABLE_PARALLEL_BUILDING = YES;
+				INSTALL_PATH = /Developer/Examples/Java/Sound/JavaSoundDemo;
+				JAVA_ARCHIVE_CLASSES = YES;
+				JAVA_ARCHIVE_COMPRESSION = NO;
+				JAVA_ARCHIVE_TYPE = JAR;
+				JAVA_COMPILER = /usr/bin/javac;
+				JAVA_MANIFEST_FILE = Manifest;
+				JAVA_SOURCE_SUBDIR = .;
+				PRODUCT_NAME = JavaSoundDemo;
+				PURE_JAVA = YES;
+				REZ_EXECUTABLE = YES;
+			};
+			dependencies = (
+			);
+			isa = PBXToolTarget;
+			name = JavaSoundDemo;
+			productInstallPath = /Developer/Examples/Java/Sound/JavaSoundDemo;
+			productName = JavaSoundDemo;
+			productReference = 6A9ED92C02B0286D0CC91562;
+		};
+		130F8B91001BDF0A11CA292A = {
+			buildActionMask = 2147483647;
+			files = (
+				F5456A7B038B1DA001E8FE26,
+				F5456A7C038B1DA001E8FE26,
+				F5456A7D038B1DA001E8FE26,
+				F5456A7E038B1DA001E8FE26,
+				F5456A7F038B1DA001E8FE26,
+				F5456A80038B1DA001E8FE26,
+				F5456A81038B1DA001E8FE26,
+				F5456A82038B1DA001E8FE26,
+			);
+			isa = PBXSourcesBuildPhase;
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		130F8B93001BDF0A11CA292A = {
+			buildActionMask = 2147483647;
+			files = (
+				F5D44B4103A7F79C01AD5520,
+			);
+			isa = PBXJavaArchiveBuildPhase;
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		130F8B94001BDF0A11CA292A = {
+			buildActionMask = 2147483647;
+			files = (
+			);
+			isa = PBXFrameworksBuildPhase;
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		130F8B95001BDF0A11CA292A = {
+			buildRules = (
+			);
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				ZERO_LINK = YES;
+			};
+			isa = PBXBuildStyle;
+			name = Development;
+		};
+		130F8B96001BDF0A11CA292A = {
+			buildRules = (
+			);
+			buildSettings = {
+				COPY_PHASE_STRIP = YES;
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				ZERO_LINK = NO;
+			};
+			isa = PBXBuildStyle;
+			name = Deployment;
+		};
+//130
+//131
+//132
+//133
+//134
+//6A0
+//6A1
+//6A2
+//6A3
+//6A4
+		6A8008AE02C7B68F0CC91562 = {
+			fileEncoding = 5;
+			isa = PBXFileReference;
+			lastKnownFileType = text;
+			path = Manifest;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		6A9ED92C02B0286D0CC91562 = {
+			explicitFileType = "compiled.mach-o.executable";
+			fallbackIsa = PBXFileReference;
+			includeInIndex = 0;
+			isa = PBXZipArchiveReference;
+			path = JavaSoundDemo.jar;
+			refType = 3;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+//6A0
+//6A1
+//6A2
+//6A3
+//6A4
+//F50
+//F51
+//F52
+//F53
+//F54
+		F5456A70038B1DA001E8FE26 = {
+			children = (
+				F5456A72038B1DA001E8FE26,
+				F5456A73038B1DA001E8FE26,
+				F5456A74038B1DA001E8FE26,
+				F5456A75038B1DA001E8FE26,
+				F5456A76038B1DA001E8FE26,
+				F5456A77038B1DA001E8FE26,
+				F5456A78038B1DA001E8FE26,
+				F5456A79038B1DA001E8FE26,
+			);
+			isa = PBXGroup;
+			path = src;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		F5456A72038B1DA001E8FE26 = {
+			fileEncoding = 5;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.java;
+			path = CapturePlayback.java;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		F5456A73038B1DA001E8FE26 = {
+			fileEncoding = 5;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.java;
+			path = ControlContext.java;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		F5456A74038B1DA001E8FE26 = {
+			fileEncoding = 5;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.java;
+			path = Groove.java;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		F5456A75038B1DA001E8FE26 = {
+			fileEncoding = 5;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.java;
+			path = JavaSound.java;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		F5456A76038B1DA001E8FE26 = {
+			fileEncoding = 5;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.java;
+			path = JavaSoundApplet.java;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		F5456A77038B1DA001E8FE26 = {
+			fileEncoding = 5;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.java;
+			path = Juke.java;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		F5456A78038B1DA001E8FE26 = {
+			fileEncoding = 5;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.java;
+			path = MidiSynth.java;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		F5456A79038B1DA001E8FE26 = {
+			fileEncoding = 5;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.java;
+			path = TempoDial.java;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		F5456A7B038B1DA001E8FE26 = {
+			fileRef = F5456A72038B1DA001E8FE26;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		F5456A7C038B1DA001E8FE26 = {
+			fileRef = F5456A73038B1DA001E8FE26;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		F5456A7D038B1DA001E8FE26 = {
+			fileRef = F5456A74038B1DA001E8FE26;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		F5456A7E038B1DA001E8FE26 = {
+			fileRef = F5456A75038B1DA001E8FE26;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		F5456A7F038B1DA001E8FE26 = {
+			fileRef = F5456A76038B1DA001E8FE26;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		F5456A80038B1DA001E8FE26 = {
+			fileRef = F5456A77038B1DA001E8FE26;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		F5456A81038B1DA001E8FE26 = {
+			fileRef = F5456A78038B1DA001E8FE26;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		F5456A82038B1DA001E8FE26 = {
+			fileRef = F5456A79038B1DA001E8FE26;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		F5456A83038B222101E8FE26 = {
+			children = (
+				F5456A84038B222101E8FE26,
+				F5456A85038B222101E8FE26,
+				F5456A86038B222101E8FE26,
+				F5456A87038B222101E8FE26,
+				F5456A88038B222101E8FE26,
+				F5456A89038B222101E8FE26,
+			);
+			isa = PBXGroup;
+			path = audio;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		F5456A84038B222101E8FE26 = {
+			isa = PBXFileReference;
+			lastKnownFileType = audio.wav;
+			path = "1-welcome.wav";
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		F5456A85038B222101E8FE26 = {
+			isa = PBXFileReference;
+			lastKnownFileType = file;
+			path = "22-new.aif";
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		F5456A86038B222101E8FE26 = {
+			isa = PBXFileReference;
+			lastKnownFileType = file;
+			path = destMouse_Peru.AIF;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		F5456A87038B222101E8FE26 = {
+			isa = PBXFileReference;
+			lastKnownFileType = file;
+			path = "sfx-medley.rmf";
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		F5456A88038B222101E8FE26 = {
+			isa = PBXFileReference;
+			lastKnownFileType = audio.au;
+			path = spacemusic.au;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		F5456A89038B222101E8FE26 = {
+			isa = PBXFileReference;
+			lastKnownFileType = audio.midi;
+			path = trippygaia1.mid;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		F5456A93038B3C0C01E8FE26 = {
+			fileEncoding = 5;
+			isa = PBXFileReference;
+			lastKnownFileType = text;
+			path = README.txt;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		F5456A94038B3C0C01E8FE26 = {
+			fileEncoding = 5;
+			isa = PBXFileReference;
+			lastKnownFileType = text.html;
+			path = JavaSoundDemoPlugin.html;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		F5456A95038B3C0C01E8FE26 = {
+			fileEncoding = 5;
+			isa = PBXFileReference;
+			lastKnownFileType = text.html;
+			path = JavaSoundDemo.html;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		F5D44B4103A7F79C01AD5520 = {
+			fileRef = 6A8008AE02C7B68F0CC91562;
+			isa = PBXBuildFile;
+			settings = {
+				JAVA_ARCHIVE_SUBDIR = "";
+			};
+		};
+		F5D44B9203A82BC801AD5520 = {
+			buildActionMask = 2147483647;
+			dstPath = audio;
+			dstSubfolderSpec = 16;
+			files = (
+				F5D44B9303A82BD601AD5520,
+				F5D44B9403A82BD601AD5520,
+				F5D44B9503A82BD601AD5520,
+				F5D44B9603A82BD601AD5520,
+				F5D44B9703A82BD601AD5520,
+				F5D44B9803A82BD601AD5520,
+			);
+			isa = PBXCopyFilesBuildPhase;
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F5D44B9303A82BD601AD5520 = {
+			fileRef = F5456A84038B222101E8FE26;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		F5D44B9403A82BD601AD5520 = {
+			fileRef = F5456A85038B222101E8FE26;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		F5D44B9503A82BD601AD5520 = {
+			fileRef = F5456A86038B222101E8FE26;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		F5D44B9603A82BD601AD5520 = {
+			fileRef = F5456A87038B222101E8FE26;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		F5D44B9703A82BD601AD5520 = {
+			fileRef = F5456A88038B222101E8FE26;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		F5D44B9803A82BD601AD5520 = {
+			fileRef = F5456A89038B222101E8FE26;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		F5D44B9903A82BFA01AD5520 = {
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 16;
+			files = (
+				F5D44B9A03A82C0601AD5520,
+				F5D44B9B03A82C0601AD5520,
+			);
+			isa = PBXCopyFilesBuildPhase;
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F5D44B9A03A82C0601AD5520 = {
+			fileRef = F5456A94038B3C0C01E8FE26;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		F5D44B9B03A82C0601AD5520 = {
+			fileRef = F5456A95038B3C0C01E8FE26;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+	};
+	rootObject = 00E6828EFEC88D1A11DB9C8B;
+}
