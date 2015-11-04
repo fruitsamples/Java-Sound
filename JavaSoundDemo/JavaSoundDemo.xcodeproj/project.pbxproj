@@ -26,30 +26,6 @@
 		F5D44B9B03A82C0601AD5520 /* JavaSoundDemo.html in CopyFiles */ = {isa = PBXBuildFile; fileRef = F5456A95038B3C0C01E8FE26 /* JavaSoundDemo.html */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXBuildStyle section */
-		130F8B95001BDF0A11CA292A /* Development */ = {
-			isa = PBXBuildStyle;
-			buildSettings = {
-				COPY_PHASE_STRIP = NO;
-				GCC_DYNAMIC_NO_PIC = NO;
-				GCC_ENABLE_FIX_AND_CONTINUE = YES;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				ZERO_LINK = YES;
-			};
-			name = Development;
-		};
-		130F8B96001BDF0A11CA292A /* Deployment */ = {
-			isa = PBXBuildStyle;
-			buildSettings = {
-				COPY_PHASE_STRIP = YES;
-				GCC_ENABLE_FIX_AND_CONTINUE = NO;
-				ZERO_LINK = NO;
-			};
-			name = Deployment;
-		};
-/* End PBXBuildStyle section */
-
 /* Begin PBXCopyFilesBuildPhase section */
 		F5D44B9203A82BC801AD5520 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
@@ -178,16 +154,12 @@
 		00E6828EFEC88D1A11DB9C8B /* Project object */ = {
 			isa = PBXProject;
 			buildConfigurationList = 4C2343E208DF2E9E008B0BD4 /* Build configuration list for PBXProject "JavaSoundDemo" */;
-			buildSettings = {
-			};
-			buildStyles = (
-				130F8B95001BDF0A11CA292A /* Development */,
-				130F8B96001BDF0A11CA292A /* Deployment */,
-			);
+			compatibilityVersion = "Xcode 2.4";
 			hasScannedForEncodings = 1;
 			mainGroup = 00E6828FFEC88D1A11DB9C8B;
 			productRefGroup = 0120612AFEC8923411DB9C8B /* Products */;
 			projectDirPath = "";
+			projectRoot = "";
 			targets = (
 				130F8B90001BDF0A11CA292A /* JavaSoundDemo */,
 			);
@@ -223,19 +195,6 @@
 				F5D44B9903A82BFA01AD5520 /* CopyFiles */,
 				F5D44B9203A82BC801AD5520 /* CopyFiles */,
 			);
-			buildSettings = {
-				DISABLE_PARALLEL_BUILDING = YES;
-				INSTALL_PATH = /Developer/Examples/Java/Sound/JavaSoundDemo;
-				JAVA_ARCHIVE_CLASSES = YES;
-				JAVA_ARCHIVE_COMPRESSION = NO;
-				JAVA_ARCHIVE_TYPE = JAR;
-				JAVA_COMPILER = /usr/bin/javac;
-				JAVA_MANIFEST_FILE = Manifest;
-				JAVA_SOURCE_SUBDIR = .;
-				PRODUCT_NAME = JavaSoundDemo;
-				PURE_JAVA = YES;
-				REZ_EXECUTABLE = YES;
-			};
 			dependencies = (
 			);
 			name = JavaSoundDemo;
@@ -300,7 +259,6 @@
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				PREBINDING = NO;
-				SDKROOT = /Developer/SDKs/MacOSX10.4u.sdk;
 			};
 			name = Debug;
 		};
@@ -310,7 +268,6 @@
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				PREBINDING = NO;
-				SDKROOT = /Developer/SDKs/MacOSX10.4u.sdk;
 			};
 			name = Release;
 		};
